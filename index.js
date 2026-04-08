@@ -31,7 +31,7 @@ bot.on('photo', async (ctx) => {
     // IMPORTANTE: Aquí guardamos el link en MongoDB
     // Puedes ajustar el título y capítulo manualmente por ahora
     await Manhwa.findOneAndUpdate(
-      { titulo: "Proyecto Actual", capitulo: 1 }, 
+      { titulo: "Lider de secta mantén un perfil bajo", capitulo: 1 }, 
       { $push: { imagenes: fileLink.href } }, 
       { upsert: true }
     );
