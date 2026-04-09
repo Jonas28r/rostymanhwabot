@@ -1,7 +1,7 @@
 {
   "name": "rostymanhwa",
   "version": "1.0.0",
-  "description": "Visor de Manhwas con administración vía Telegram Bot",
+  "description": "Visor de Manhwas conectado a MongoDB",
   "main": "index.js",
   "type": "module",
   "dependencies": {
