@@ -1,10 +1,9 @@
 {
-  "name": "rostymanhwabot",
-  "version": "1.0.0",
-  "type": "module",
-  "dependencies": {
-    "mongodb": "^6.7.0",
-    "mongoose": "^7.0.0",
-    "telegraf": "^4.12.2"
-  }
+"name": "bot",
+"version": "1.0.0",
+"type": "module",
+"dependencies": {
+"mongodb": "^6.7.0",
+"telegraf": "^4.12.2"
+}
 }
