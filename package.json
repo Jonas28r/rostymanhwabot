@@ -1,15 +1,11 @@
 {
-  "name": "rostymanhwa",
+  "name": "manhwa-bot",
   "version": "1.0.0",
-  "description": "Visor de Manhwas conectado a MongoDB",
   "main": "index.js",
   "type": "module",
   "dependencies": {
-    "mongodb": "^6.5.0",
+    "telegraf": "^4.12.2",
     "mongoose": "^7.0.0",
-    "telegraf": "^4.12.2"
-  },
-  "scripts": {
-    "start": "node index.js"
+    "mongodb": "^6.5.0"
   }
 }
